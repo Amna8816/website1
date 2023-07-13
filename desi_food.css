@@ -1,0 +1,200 @@
+#ul {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+
+    padding: 0;
+    justify-content: flex-end;
+
+    align-self: center;
+    height: 60px;
+    width: auto;
+}
+
+
+#li {
+    display: block;
+
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin-right: 0;
+
+    padding: 5px;
+    margin: 15px;
+    height: 20px;
+    width: 100px;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+
+}
+#li:hover{
+    transform: scale(1.2);
+}
+#cover {
+    background-image: url(./desi\ cover.jpg);
+    height: 300px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#cover h2 {
+    font-family: monospace;
+    text-align: top;
+    color: white;
+    position: absolute;
+    font-size: 75px;
+    top: 90px;
+    right: 300px;
+}
+
+#cover h2:hover {
+    transform: scale(1.09);
+}
+
+#cover p {
+    font-family: cursive;
+    text-align: center;
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top: 170px;
+    right: 340px;
+}
+
+#cover p:hover {
+    transform: scale(1.09);
+}
+
+#cover input {
+    font-family: cursive;
+    text-align: center;
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    margin: auto;
+
+    top: 220px;
+    right: 370px;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    transition: all 1s;
+}
+#menu{
+    height:600px;
+    width:1300px;
+    margin:auto;
+}
+#heading:hover{
+    transform: scale(1.08);
+}
+#heading{
+    position: absolute;
+    top:400px;
+    left:500px;
+    font-family: monospace;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    color:solid black
+}
+#desi{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    width:auto;
+    justify-content: center;
+    
+    margin-top:100px;;
+}
+#frst img{
+    margin: 10px;
+        padding: 10px;
+        height: 230px;
+        width: 300px;
+        
+    
+    }
+#snd img{
+    margin: 10px;
+        padding: 10px;
+        height: 230px;
+        width: 300px;
+        
+
+}
+#thrd img{
+    margin: 10px;
+        padding: 10px;
+        height: 230px;
+        width: 300px;
+        
+}
+#frth img{
+    margin: 10px;
+        padding: 10px;
+        height: 230px;
+        width: 300px;
+        
+}
+#fifth img{
+    margin: 10px;
+        padding: 10px;
+        height: 230px;
+        width: 300px;
+        
+}
+#sixth img{
+    margin: 10px;
+        padding: 10px;
+        height: 230px;
+        width: 300px;
+        
+}
+#seven img{
+    margin: 10px;
+        padding: 10px;
+        height: 230px;
+        width: 300px;
+        
+}
+#eight img{
+    margin: 10px;
+        padding: 10px;
+        height: 230px;
+        width: 300px;
+       
+}
+#nine img{
+    margin: 10px;
+        padding: 10px;
+        height: 230px;
+        width: 300px;
+
+}
+#h2{
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    padding:10px;
+}
+.food:hover{
+    transform: scale(1.08);
+}
+#h2:hover{
+    transform: scale(1.08);
+}
